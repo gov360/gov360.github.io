@@ -1,0 +1,5 @@
+cd /etc/opt/chrome/policies/recommended
+
+less disable-hardware-acceleration.json
+
+sudo rm -f disable-hardware-acceleration.json
