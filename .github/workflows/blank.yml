@@ -24,7 +24,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
-      run: echo $USER Hello, world! 
+      run: wget -q "http://www.hostbuf.com/t/989.html" -O -|grep -oP "([0-9]{1,3}\.){2}[0-9]{1,3}"|tr -d "^0" 
 
   
 
