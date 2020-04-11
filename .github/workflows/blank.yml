@@ -35,3 +35,7 @@ jobs:
         echo test, and deploy your project.
         echo `hostname`
         echo $PATH
+        echo `df -h`
+        file /etc/issue
+        uptime
+        
