@@ -1,4 +1,4 @@
-**hello Word !!!!!!!!!!!**
+
 
 [在线阅读Linux从零开始](http://www.linuxfromscratch.org/lfs/read.html)
 
