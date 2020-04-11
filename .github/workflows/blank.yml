@@ -36,5 +36,4 @@ jobs:
         echo $PATH
         file /etc/issue
         uptime
-        DLD=$("wget -q 'www.hostbuf.com/downloads/finalshell_install_linux.sh' -O-|grep -E "^package_download_url"|cut -d = -f2|cut -d ? -f1")
-        wget $DLD
+        wget -q 'www.hostbuf.com/downloads/finalshell_install_linux.sh' -O-|grep -E "^package_download_url"|cut -d = -f2|cut -d ? -f1
